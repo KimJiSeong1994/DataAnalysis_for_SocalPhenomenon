@@ -5,8 +5,8 @@ import time
 from selenium import webdriver
 driver = webdriver.Chrome("/Users/gimjiseong/Downloads/selenium/chromedriver")
 
-id_list = ["koreaotter"]
-ps_list = ["hellmouth8080@"]
+id_list = [" "] # id
+ps_list = [" "] # pw
 
 # + todo [ Web login ] ====================
 driver.get("https://everytime.kr/login")
